@@ -10,6 +10,12 @@ type JobZone struct {
 	svp_range    string
 }
 
+type CareerIndustry struct {
+	href  string
+	code  int32
+	title string
+}
+
 type Pagination struct {
 	start int32
 	end   int32
